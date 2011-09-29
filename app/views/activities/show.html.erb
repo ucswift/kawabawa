@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Shortdescription:</b>
+  <%= @activity.ShortDescription %>
+</p>
+
+<p>
+  <b>Longdescription:</b>
+  <%= @activity.LongDescription %>
+</p>
+
+<p>
+  <b>Scheduleflexibility:</b>
+  <%= @activity.ScheduleFlexibility %>
+</p>
+
+<p>
+  <b>Locationflexibility:</b>
+  <%= @activity.LocationFlexibility %>
+</p>
+
+<p>
+  <b>Isoutdoors:</b>
+  <%= @activity.IsOutdoors %>
+</p>
+
+<p>
+  <b>Issocial:</b>
+  <%= @activity.IsSocial %>
+</p>
+
+<p>
+  <b>Physicalactivitylevel:</b>
+  <%= @activity.PhysicalActivityLevel %>
+</p>
+
+<p>
+  <b>Mentalactivitylevel:</b>
+  <%= @activity.MentalActivityLevel %>
+</p>
+
+<p>
+  <b>Cost:</b>
+  <%= @activity.Cost %>
+</p>
+
+<p>
+  <b>Duration:</b>
+  <%= @activity.Duration %>
+</p>
+
+
+<%= link_to 'Edit', edit_activity_path(@activity) %> |
+<%= link_to 'Back', activities_path %>

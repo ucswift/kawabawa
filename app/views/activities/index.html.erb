@@ -1,0 +1,41 @@
+<h1>Listing activities</h1>
+
+<table>
+  <tr>
+    <th>Shortdescription</th>
+    <th>Longdescription</th>
+    <th>Scheduleflexibility</th>
+    <th>Locationflexibility</th>
+    <th>Isoutdoors</th>
+    <th>Issocial</th>
+    <th>Physicalactivitylevel</th>
+    <th>Mentalactivitylevel</th>
+    <th>Cost</th>
+    <th>Duration</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @activities.each do |activity| %>
+  <tr>
+    <td><%= activity.ShortDescription %></td>
+    <td><%= activity.LongDescription %></td>
+    <td><%= activity.ScheduleFlexibility %></td>
+    <td><%= activity.LocationFlexibility %></td>
+    <td><%= activity.IsOutdoors %></td>
+    <td><%= activity.IsSocial %></td>
+    <td><%= activity.PhysicalActivityLevel %></td>
+    <td><%= activity.MentalActivityLevel %></td>
+    <td><%= activity.Cost %></td>
+    <td><%= activity.Duration %></td>
+    <td><%= link_to 'Show', activity %></td>
+    <td><%= link_to 'Edit', edit_activity_path(activity) %></td>
+    <td><%= link_to 'Destroy', activity, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Activity', new_activity_path %>

@@ -28,6 +28,7 @@ end
 # To use debugger
 # gem 'ruby-debug'
 
+gem 'fastercsv'
 gem "hoptoad_notifier"
 gem "jquery-rails"
 gem "omniauth", "~> 0.2.0"

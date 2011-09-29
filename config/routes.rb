@@ -1,4 +1,6 @@
 Kawabawa::Application.routes.draw do
+  resources :activities
+
   match '/auth/:provider/callback', :to => 'sessions#callback'
 
   # The priority is based upon order of creation:
