@@ -1,4 +1,10 @@
 Kawabawa::Application.routes.draw do
+
+
+  # Home route
+  root :to => "pages#home"
+
+
   get "undertakings/search"
 
   get "undertakings/add"

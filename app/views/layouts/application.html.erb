@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kawabawa</title>
+<title>kawabawa</title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="container">
+  <div id="main_left">
 
-<%= yield %>
+  </div>
+  <div id="main_mid">
+    <div id="main_mid_panel">
+      <div id="logo"><a href="index.html"><%= image_tag "logo.png" %></a></div>
+      <div class="top_panel">
+        <p>Want to try something new, but don't know what? Let <i>kawabawa</i> give you some ideas.</p>
+      </div>
+      <div class="clear"></div>
+    </div>
 
+
+
+    <%= yield %>
+
+    <div class="clear"></div>
+
+    <div id="main_middle">
+        <div class="clear"></div>
+    </div>
+
+    <div id="main_bottom">
+        <div class="bottom">
+            <p><a href="#">Terms of Use</a></p>
+            <h5>&copy; WaveTech Digital Technologies, Inc. All rights reserved</h5>
+        </div>
+    </div>
+</div>
+<div id="main_right">&nbsp;</div>
+<div class="clear"></div>
+</div>
 </body>
 </html>
