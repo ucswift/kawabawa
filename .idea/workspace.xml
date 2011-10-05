@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="64b27ef9-89b3-469a-87b2-f4e2c3926fb6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="kawabawa.iws" />
@@ -42,7 +43,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="175" selection-end="175" vertical-scroll-proportion="0.24902724">
+            <state line="27" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="0.8404669">
               <folding />
             </state>
           </provider>
@@ -825,7 +826,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="175" selection-end="175" vertical-scroll-proportion="0.24902724">
+        <state line="27" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="0.8404669">
           <folding />
         </state>
       </provider>
