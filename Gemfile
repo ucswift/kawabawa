@@ -17,7 +17,11 @@ group :assets do
   gem 'uglifier'
 end
 
-
+# gemfile
+group :production do
+  gem 'therubyracer' # you will need this too
+  gem 'pg'
+end
 
 # Use unicorn as the web server
 # gem 'unicorn'
