@@ -37,5 +37,5 @@ gem 'fastercsv'
 #gem "hoptoad_notifier"
 gem "jquery-rails"
 gem "omniauth", "~> 0.2.0"
-#gem "rails_admin", :git => "git://github.com/sferik/rails_admin.git"
+gem "rails_admin", :git => "git://github.com/sferik/rails_admin.git"
 gem "rspec-rails", ">= 2.0.1", :group => [:development, :test]

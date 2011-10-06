@@ -61,7 +61,9 @@
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.3.3, ruby-1.8.7-p174) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.0, ruby-1.8.7-p174) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyntlm (v0.1.1, ruby-1.8.7-p174) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="libv8 (v3.3.10.2, ruby-1.8.7-p174) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faraday (v0.6.1, ruby-1.8.7-p174) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="therubyracer (v0.9.5, ruby-1.8.7-p174) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.0.3, ruby-1.8.7-p174) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-openid (v1.3.1, ruby-1.8.7-p174) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v3.1.1, ruby-1.8.7-p174) [gem]" level="application" />
