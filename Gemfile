@@ -20,7 +20,7 @@ end
 
 # gemfile
 group :production do
-  #gem 'therubyracer' # you will need this too
+  gem 'therubyracer' # you will need this too
   gem 'pg'
 end
 
