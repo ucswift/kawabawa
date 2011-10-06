@@ -1,6 +1,8 @@
 Kawabawa::Application.routes.draw do
 
 
+  resources :votes
+
   # Home route
   root :to => "pages#home"
 

@@ -13,7 +13,7 @@
   <h4></h4>
   <p>
      <%= form_for(:find_activity_model) do |f| %>
-        I want to try something that has a <%= select( "schedule", "id", { "Flexable" => "1", "Set" => "2"}) %> schedule
+        I want to try something that has a <%= select( "schedule", "id", { "Flexible" => "1", "Set" => "2"}) %> schedule
         which <%= select( "isOutdoors", "id", { "Is" => "1", "Is Not" => "2"}) %> outdoors, but also has a
         <%= select( "physical", "id", { "Low" => "1", "High" => "2"}) %> physical and <%= select( "mental", "id", { "Low" => "1", "High" => "2"}) %>
         mental activity level. It should be something that I can do <%= select( "social", "id", { "Do by myself" => "1", "Do with others" => "2"}) %>
@@ -22,6 +22,7 @@
           <br/>
           <br/>
           <br/>
+          <b>HELLO KEITH!</b>
           <%= button_to("find me something new") %>
         </div>
     <% end %>

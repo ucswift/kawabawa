@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110929200419) do
+ActiveRecord::Schema.define(:version => 20111006194647) do
 
   create_table "activities", :force => true do |t|
     t.string   "ShortDescription"
@@ -23,6 +23,14 @@ ActiveRecord::Schema.define(:version => 20110929200419) do
     t.integer  "MentalActivityLevel"
     t.decimal  "Cost"
     t.integer  "Duration"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "votes", :force => true do |t|
+    t.integer  "activity_id"
+    t.boolean  "vote_up"
+    t.boolean  "vote_down"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
