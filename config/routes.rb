@@ -4,16 +4,10 @@ Kawabawa::Application.routes.draw do
   # Home route
   root :to => "pages#home"
 
-
-  get "undertakings/search"
-
-  get "undertakings/add"
-
-  get "undertakings/list"
-
   get "pages/home"
 
   resources :activities
+  resources :admin
 
   match '/auth/:provider/callback', :to => 'sessions#callback'
 
