@@ -6,4 +6,8 @@ class PagesController < ApplicationController
     @find_activity_model = FindActivityModel.new
   end
 
+  def terms
+    
+  end
+
 end

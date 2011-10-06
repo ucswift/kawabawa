@@ -1,6 +1,8 @@
 Kawabawa::Application.routes.draw do
 
 
+  get "pages/terms"
+
   resources :votes
 
   # Home route

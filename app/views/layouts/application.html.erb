@@ -13,7 +13,7 @@
   </div>
   <div id="main_mid">
     <div id="main_mid_panel">
-      <div id="logo"><a href="index.html"><%= image_tag "logo.png" %></a></div>
+      <div id="logo"><a href="<%= url_for(:action => 'home', :controller => 'pages') %>"><%= image_tag "logo.png" %></a></div>
       <div class="top_panel">
         <p>Want to try something new, but don't know what? Let <i>kawabawa</i> give you some ideas. <%= link_to("You can also give kawabawa your ideas.", :controller => "activities", :action => "new") %></p>
       </div>
@@ -32,8 +32,8 @@
 
     <div id="main_bottom">
         <div class="bottom">
-            <p><a href="#">Terms of Use</a></p>
-            <h5>&copy; WaveTech Digital Technologies, Inc. All rights reserved</h5>
+            <p><%= link_to("Terms of Use", :controller => "pages", :action => "terms") %></p>
+            <h5>&copy; <a href="http://www.wtdt.com">WaveTech Digital Technologies</a>, Inc. All rights reserved</h5>
         </div>
     </div>
 </div>

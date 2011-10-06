@@ -1,5 +1,27 @@
 <h1>New activity</h1>
 
-<%= render 'form' %>
-
-<%= link_to 'Back', activities_path %>
+<%= form_for(@activity) do |f| %>
+  <div class="field">
+    <label for="activity_ShortDescription">Short description</label><br />
+    <%= f.text_field :ShortDescription %>
+  </div>
+  <div class="field">
+    <label for="activity_LongDescription">Long description</label><br />
+    <%= f.text_area :LongDescription %>
+  </div>
+  <div class="field">
+    <label for="activity_ScheduleFlexibility">Schedule Flexibility</label><br />
+    <%= f.select("ScheduleFlexibility", { "Very Flexible (i.e. On Demand)" => "1", "Kinda Flexible" => "2", "Not Flexible" => "3"}) %>
+  </div>
+  <div class="field">
+    <label for="activity_LocationFlexibility">Location Flexibility</label><br />
+    <%= f.select("LocationFlexibility", { "Anywhere" => "1", "Fixed Location" => "2"}) %>
+  </div>
+  <div class="field">
+    <label for="activity_LongDescription">Long description</label><br />
+    <%= f.text_area :LongDescription %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Submit Activity" %>
+  </div>
+<% end %>
